@@ -8,14 +8,14 @@ public class Animal {
 	private static int totalAnimales = 0;
 	private String nombre;
 	private int edad;
-	private String habitad;
+	private String habitat;
 	private String genero;
 	private Zona zona;
 	
-	public Animal(String nombre, int edad, String habitad, String genero) {
+	public Animal(String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.habitad = habitad;
+		this.habitat = habitat;
 		this.genero = genero;
 		totalAnimales++;
 		
@@ -72,7 +72,7 @@ public class Animal {
 		return edad;
 	}
 	
-	public void setHabitad(String plc) {
+	public void setHabitat(String plc) {
 		habitad = plc ;
 	}
 	

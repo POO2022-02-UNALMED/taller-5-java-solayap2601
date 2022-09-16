@@ -8,8 +8,8 @@ public class Ave extends Animal {
 	public static int aguilas = 0;
 	private String colorPlumas;
 	
-	public Ave(String nombre, int edad, String habitad, String genero, String colorPlumas) {
-		new Animal(nombre, edad, habitad, genero);
+	public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
+		new Animal(nombre, edad, habitat, genero);
 		this.colorPlumas = colorPlumas;	
 		listado.add(this);
 	}
