@@ -2,7 +2,7 @@ package zooAnimales;
 
 import java.util.ArrayList;
 
-import gastion.Zona;
+import gestion.Zona;
 
 public class Animal {
 	private static int totalAnimales = 0;
