@@ -2,6 +2,8 @@ package zooAnimales;
 
 import java.util.ArrayList;
 
+import gastion.Zona;
+
 public class Animal {
 	private static int totalAnimales = 0;
 	private String nombre;
