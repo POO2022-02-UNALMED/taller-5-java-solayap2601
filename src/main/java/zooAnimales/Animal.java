@@ -71,7 +71,7 @@ public class Animal {
 		habitad = plc ;
 	}
 	
-	public String getHabitad() {
+	public String getHabitat() {
 		return habitad;
 	}
 	
