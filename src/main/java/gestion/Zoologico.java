@@ -34,6 +34,9 @@ public class Zoologico {
 	public void setZonas(ArrayList<Zona> loc) {
 		zonas = loc;
 	}
+	public ArrayList<Zona> getZona(){
+		return zonas;
+	}
 	
 	public void agregarZonas(Zona loc) {
 		zonas.add(loc);
