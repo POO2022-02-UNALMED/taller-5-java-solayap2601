@@ -26,7 +26,7 @@ public class Reptil extends Animal {
 	}
 	
 	@Override
-	public String Movimiento() {
+	public String movimiento() {
 		return "reptar";
 	}
 	

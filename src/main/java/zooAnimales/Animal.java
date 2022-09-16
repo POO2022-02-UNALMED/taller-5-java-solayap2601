@@ -25,7 +25,7 @@ public class Animal {
 		totalAnimales++;
 	}
 	
-	public String Movimiento () {
+	public String movimiento () {
 		return "desplazarse";
 	}
 
