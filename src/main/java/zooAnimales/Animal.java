@@ -37,10 +37,15 @@ public class Animal {
 				+ "Anfibios: " + Anfibio.cantidadAnfibios());
 	}
 
-	public  String  toString() {
-		String a="Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitad + " y mi genero es " + genero; 
-		if(zona!=null) { a +=", la zona en la que me ubico es " + zona + ", en el " + zona.getZoo();}
-		return a;
+	public String toString() {
+		String retorno = "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es "
+				+ genero;
+		
+		if(zona != null) {
+			retorno += ", la zona en la que me ubico es " + zona +", en el " + zona.getZoo();
+		}
+		
+		return retorno;
 	}
 
 	public void setTotalAnimales(int tot) {
