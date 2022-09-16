@@ -10,14 +10,18 @@ public class Reptil extends Animal {
 	private int largoCola;
 	
 	public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
-		totalAnimales++;
+		Animal( nombre, edad, habitat, genero);
+		this.nombre = nombre;
+		this.edad = edad;
+		this.habitad = habitad;
+		this.genero = genero;
 		this.colorEscamas = colorEscamas;	
 		this.largoCola = largoCola;
 		listado.add(this);
 	}
 	
 	public Reptil() {
-		totalAnimales++;
+		Animal();
 		listado.add(this);
 	}
 	
