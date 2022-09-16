@@ -39,7 +39,7 @@ public class Animal {
 
 	public  String  toString() {
 		String a="Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitad + " y mi genero es " + genero; 
-		if(zona!=null) { a +=", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre();}
+		if(zona!=null) { a +=", la zona en la que me ubico es " + zona + ", en el " + zona.getZoo();}
 		return a;
 	}
 
