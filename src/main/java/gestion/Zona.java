@@ -2,7 +2,7 @@ package gestion;
 
 import java.util.ArrayList;
 
-import ZooAnimales.Animales;
+import ZooAnimales.Animal;
 
 public class Zona {
 	private String nombre;
