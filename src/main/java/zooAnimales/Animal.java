@@ -73,11 +73,11 @@ public class Animal {
 	}
 	
 	public void setHabitat(String plc) {
-		habitad = plc ;
+		habitat = plc ;
 	}
 	
 	public String getHabitat() {
-		return habitad;
+		return habitat;
 	}
 	
 	public void setGenero(String gen) {
